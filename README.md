@@ -4,7 +4,7 @@ highlights support.
 All colorschemes have a dark and light variant; the appropriate one will be
 used when you `set background=dark` or `set background=light` 
 
-# Screenshots
+# Overview
 
 Ruby dark
 ![foo](screenshots/simonvic_ruby_dark.png)
@@ -58,8 +58,8 @@ Silver monochrome light
 
 # Customization
 
-Each colorscheme is a lua module that returns a `Colorscheme` with you can
-`:apply()` or, using it as a base, `:build()` a new one
+Each colorscheme is a lua module that returns a `Colorscheme` with which you
+can `:build()` a new one using it as a base, and then `:apply()`
 
 For example, creating a new `emerald` theme based on `ruby` is as simple as
 
@@ -74,21 +74,28 @@ require("simonvic.colorscheme.ruby")
 	:apply()
 ```
 
-You can also override `groups`
+You can also override the `groups`
 
 ```lua
 require("simonvic.colorscheme.ruby")
 	:build({
 		name = "emerald",
 		groups = {
-			Keyword = { bold = true }
+			Keyword = { fg = "#00ff00", bold = true }
 		}
 	})
 	:apply()
 ```
 
+> [!TIP]
+> To "delete" a field from a group, you can use an empty string
+> ```lua
+> DiffAdd = { bg = "" }
+> ```
+
 If you need to override the `palette` and use the resulting merged palette in
-the `groups`, you can use a function that takes a palette and return the groups
+the `groups`, you can use a function that takes a palette and returns the
+groups
 
 ```lua
 require("simonvic.colorscheme.ruby")
