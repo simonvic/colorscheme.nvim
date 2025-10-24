@@ -1,4 +1,4 @@
-return require("simonvic.colorscheme.ruby_monochrome"):build({
+return require("simonvic.colorscheme.ruby.monochrome"):build({
 	palette = {
 
 		accent__4         = "#EF9F9B",

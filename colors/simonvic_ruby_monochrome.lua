@@ -1,5 +1,5 @@
 if vim.o.background == "dark" then
-	require("simonvic.colorscheme.ruby_monochrome.dark"):apply()
+	require("simonvic.colorscheme.ruby.monochrome.dark"):apply()
 else
-	require("simonvic.colorscheme.ruby_monochrome.light"):apply()
+	require("simonvic.colorscheme.ruby.monochrome.light"):apply()
 end
