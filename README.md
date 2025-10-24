@@ -142,11 +142,10 @@ of `accent`, while `accent_2` a slightly bright shade of `accent`
 
 Syntax highlight groups follow some rules:
 
-- **keywords** are the elements that stands out more from the background: they
-are the main elements that describe how your code is structured; if you were to
-squint your eyes and look at a code snippet from far away, you should still be
-able to distinguish an `for` loop statement from a `class` or `function`
-declaration
+- **keywords** are what stand out more from the background: they are the main
+elements that describe how your code is structured; if you were to squint your
+eyes and look at a code snippet from far away, you should still be able to
+distinguish a `for` loop statement from a `class` or `function` declaration
 
 - similar rationale for **punctuation**: for example, in an array or function
 arguments list, you should easily recognize where each entry begins and ends.
