@@ -1,4 +1,4 @@
-return require("simonvic.colorscheme.silver_monochrome"):build({
+return require("simonvic.colorscheme.silver"):build({
 	palette = {
 
 		accent__4         = "#EF9F9B",
