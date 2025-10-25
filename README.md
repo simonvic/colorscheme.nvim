@@ -9,8 +9,8 @@ used when you `set background=dark` or `set background=light`
 Ruby dark
 ![foo](screenshots/simonvic_ruby_dark.png)
 
-Amber dark
-![foo](screenshots/simonvic_amber_dark.png)
+Opal dark
+![foo](screenshots/simonvic_opal_dark.png)
 
 Silver monochrome light
 ![foo](screenshots/simonvic_silver_monochrome_light.png)
@@ -26,11 +26,11 @@ Silver monochrome light
 		</tr></thead>
 	<tbody>
 		<tr>
-			<td colspan="2" align="center">simonvic_amber</td>
+			<td colspan="2" align="center">simonvic_opal</td>
 		</tr>
 		<tr>
-			<td><img src="screenshots/simonvic_amber_light.png"></td>
-			<td><img src="screenshots/simonvic_amber_dark.png"></td>
+			<td><img src="screenshots/simonvic_opal_light.png"></td>
+			<td><img src="screenshots/simonvic_opal_dark.png"></td>
 		</tr>
 		<tr>
 			<td colspan="2" align="center">simonvic_ruby</td>

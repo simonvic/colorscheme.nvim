@@ -1,3 +1,3 @@
 return require("simonvic.colorscheme"):build({
-	name = "simonvic_amber"
+	name = "simonvic_opal"
 })

@@ -1,5 +1,5 @@
-return require("simonvic.colorscheme.amber"):build({
-	name = "simonvic_amber_opaque",
+return require("simonvic.colorscheme.opal"):build({
+	name = "simonvic_opal_opaque",
 	palette = {
 		zdepth__4 = "#000000",
 		zdepth__3 = "#111111",
