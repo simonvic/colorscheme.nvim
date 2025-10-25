@@ -7,13 +7,13 @@ used when you `set background=dark` or `set background=light`
 # Overview
 
 Ruby dark
-![foo](screenshots/simonvic_ruby_dark.png)
+![ruby_dark](screenshots/simonvic_ruby_dark.png)
 
 Opal dark
-![foo](screenshots/simonvic_opal_dark.png)
+![opal_dark](screenshots/simonvic_opal_dark.png)
 
-Silver monochrome light
-![foo](screenshots/simonvic_silver_monochrome_light.png)
+Silver light
+![silver_light](screenshots/simonvic_silver_light.png)
 
 
 ## All variants
@@ -47,11 +47,11 @@ Silver monochrome light
 			<td><img src="screenshots/simonvic_ruby_monochrome_dark.png"></td>
 		</tr>
 		<tr>
-			<td colspan="2" align="center">simonvic_silver_monochrome</td>
+			<td colspan="2" align="center">simonvic_silver</td>
 		</tr>
 		<tr>
-			<td><img src="screenshots/simonvic_silver_monochrome_light.png"></td>
-			<td><img src="screenshots/simonvic_silver_monochrome_dark.png"></td>
+			<td><img src="screenshots/simonvic_silver_light.png"></td>
+			<td><img src="screenshots/simonvic_silver_dark.png"></td>
 		</tr>
 	</tbody>
 </table>
